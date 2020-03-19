@@ -19,7 +19,7 @@ int main()
 	scanf("%d%d", &a, &b);
 	if (a>b)
 	{
-		for (int i=a; i<=b; i++)
+		for (int i=b; i<=a; i++)
 		{
 			if (is_Hoanhao(i)==1)
 				printf("%d ", i);
@@ -27,7 +27,7 @@ int main()
 	}
 	else 
 	{
-		for (int i=b; i<=a; i++)
+		for (int i=a; i<=b; i++)
 		{
 			if (is_Hoanhao(i)==1)
 				printf("%d ", i);
